@@ -3,13 +3,15 @@ import React from "react";
 import Skills from "./skills";
 
 function About() {
-  return (
-    <>
-      <Container style={{border: `2px solid red`, marginTop: '100px'}} id="about">
+  return ( 
+  
+    <> 
+    <div  id="about" style={{border: '1px solid white'}}></div>   
+      <Container style={{marginTop: '20px'}} >
         <Grid container marginTop={15}>
           <Grid item xs={12} md={6} lg={5} marginLeft={10} marginRight={15}>
             <CardMedia
-              style={{ height: "100%", width: "100%" }}
+              style={{ height: "100%", width: "80%" }}
               component="img"
               height="600"
               image="/man3.png"
@@ -41,9 +43,7 @@ function About() {
           </Grid>
         </Grid>
       </Container>
-      <Divider color="black"></Divider>
-
-      <Skills />
+      <Divider color="#d1e0e0"></Divider>     
     </>
   );
 }

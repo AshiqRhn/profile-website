@@ -13,7 +13,7 @@ function Menu() {
   return (
     <>
       <Box sx={{ flexGrow: 1 }} id="box">
-        <AppBar position="fixed" style={{ backgroundColor: "purple" }}>
+        <AppBar position="fixed" style={{ backgroundColor: "white", color: "black"}}>
           <Toolbar>
             <Avatar
               src="/ashiq.png"
@@ -22,8 +22,8 @@ function Menu() {
               href="#box"
             />
             <Typography
-              variant="body1"
-              sx={{ flexGrow: 1 }}
+              variant="body2"
+              sx={{ flexGrow: 1, textTransform: "uppercase" }}
               component="a"
               href="#box"
             >
@@ -31,16 +31,24 @@ function Menu() {
             </Typography>
 
             <Button color="inherit" size="small" component="a" href="#about">
-              About
+              <Typography variant="body2">
+                About
+              </Typography> 
             </Button>
             <Button color="inherit" size="small" component="a" href="#skills">
-              Skills
+            <Typography variant="body2">
+                Skills
+              </Typography>
             </Button>
             <Button color="inherit" size="small" component="a" href="#projects">
-              Projects
+            <Typography variant="body2">
+                Projects
+            </Typography>
             </Button>
             <Button color="inherit" size="small" component="a" href="#contact">
-              Contact
+            <Typography variant="body2">
+                Contact
+            </Typography>
             </Button>
           </Toolbar>
         </AppBar>

@@ -16,10 +16,10 @@ import React from "react";
 function Skills() {
   return (
     <>
-    <div id="skills"></div>
+    <div id="skills" style={{border: '1px solid white'}}></div>
       <Container>
         <Typography marginTop={15}>
-          <Typography variant="h3" align="center" gutterBottom>
+          <Typography variant="h3" align="center" gutterBottom >
             Skills Overview
           </Typography>
           <Typography

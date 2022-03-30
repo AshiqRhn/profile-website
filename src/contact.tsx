@@ -4,11 +4,10 @@ import {
   Container,
   Grid,
   TextField,
-  Typography,
+  Typography
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import React from "react";
-import Footer from "./footer";
+import React, { useState } from "react";
 
 function Contact() {
   const useStyles = makeStyles({
@@ -18,10 +17,10 @@ function Contact() {
       alignItems: "center",
     },
   });
-
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+useState
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = () => {};
 
@@ -29,16 +28,13 @@ function Contact() {
 
   return (
     <>
-      <Container id="contact" style={{border: '1px solid black'}}>
-        <Typography variant="h3" gutterBottom align="center" marginTop={12}>
+      <Container id="contact" style={{border: '1px solid white'}}>
+        <Typography variant="h3" align="center"  marginBottom={5} marginTop={15}>
           Contact Me
-        </Typography>
-        <Typography variant="body1" marginBottom={5} align="center">
-          Drop us a line
-        </Typography>
+        </Typography>        
 
-        <Grid container>
-          <Grid item xs={12} md={6} lg={5} marginTop={5} marginBottom={5} marginRight={1}>
+        <Grid container marginBottom={10}>
+          <Grid item xs={12} md={6} lg={5} marginTop={5} marginBottom={5} marginRight={5}>
             <CardMedia
               className={classes.Media}
               component="img"
@@ -89,17 +85,21 @@ function Contact() {
               <br />
               <Button
                 fullWidth
-                variant="contained"
-                color="secondary"
+                variant="contained"                
                 onClick={handleSubmit}
+              
+              sx={{
+                color: 'black',
+                backgroundColor: 'white',
+                boxShadow: '2px 4px #c2d6d6',
+              }}
               >
                 Submit
               </Button>
             </form>
           </Grid>
         </Grid>
-      </Container>
-      <Footer />
+      </Container>     
     </>
   );
 }

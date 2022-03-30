@@ -1,25 +1,51 @@
-import { AppBar, Container, Toolbar, Typography } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { Box, Icon, Typography } from "@mui/material";
 import React from "react";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Link } from "@mui/icons-material";
 
-function Footer() {
-  const useStyles = makeStyles({
-    footer: {
-      backgroundColor: "purple",
-      width: "100%",
-    },
-  });
+function Footer() {  
 
-  const classes = useStyles();
+
   return (
     <>
-      <footer className={classes.footer}>
-        <Container maxWidth="lg" fixed>
-          <Typography variant="h6" color="white" padding="40px" align="center">
-            Kitchener, Ontario &copy; 2021 Md Ashiqur Rahman
+          
+        <Box sx={{display: 'flex', justifyContent: 'space-evenly', padding: '20px', borderTop: 1, borderColor: "#75a3a3"}}>
+          <Box padding="10px">
+          <Typography>
+            Md Ashiqur Rahman
+            </Typography>
+            <Typography>
+            Kitchener, Ontario
+            </Typography>
+          </Box>
+          <Box padding="10px">
+         
+            <Icon sx={{marginRight:"20px"}}>
+              <GitHubIcon />
+            </Icon>             
+         
+          
+            <Icon>
+              <LinkedInIcon />
+            </Icon>            
+          </Box>
+          <Box padding="10px">
+            <Typography>              
+              E-mail: ashiq.uxdev@gmail.com
+              </Typography>
+            <Typography>
+              Phone: +1 519 588 7296
+            </Typography>
+          </Box>
+
+        </Box>
+          <Typography variant="body2" color="black" padding="5px" align="center"
+          
+          >
+             &copy; 2021 My Profile
           </Typography>
-        </Container>
-      </footer>
+     
     </>
   );
 }

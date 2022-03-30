@@ -14,11 +14,12 @@ import React from "react";
 function Projects() {
   return (
     <>
-      <Container id="projects">
-        <Typography variant="h3" align="center" marginBottom={7} marginTop={20}>
+    <div  id="projects" style={{border: '1px solid white'}}></div>
+      <Container >
+        <Typography variant="h3" align="center" marginBottom={7} marginTop={15}>
           My Projects
         </Typography>
-        <Grid container>
+        <Grid container marginBottom={12}>
           <Grid item xs={12} md={6} lg={4}>
             <Card sx={{ maxWidth: 345 }} elevation={3}>
               <CardActionArea>
