@@ -1,3 +1,5 @@
+import { ThemeProvider } from "@emotion/react";
+import { createTheme } from "@mui/material";
 import Head from "next/head";
 import React from "react";
 import Menu from "../src/menu";
@@ -8,18 +10,37 @@ import Projects from "./projects";
 import Skills from "./skills";
 
 function HomePage() {
+    const theme = createTheme({
+      typography: {
+        fontFamily: [
+          'Montserrat', 
+          'sans-serif',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+        ].join(','),
+      },
+    });
   return (
     <>
-    <Head>
-      <title>My Profile</title>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"/>      
-    </Head>
-      <Menu />
-      <About />
-      <Skills />     
-      <Projects />
-      <Contact />
-      <Footer />      
+    <ThemeProvider theme={theme}>
+      <Head>
+        <title>My Profile</title>         
+      </Head>
+        <Menu />
+        <About />
+        <Skills />     
+        <Projects />
+        <Contact />
+        <Footer />    
+    </ThemeProvider>
     </>
   );
 }
