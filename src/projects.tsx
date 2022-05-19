@@ -34,9 +34,7 @@ function Projects() {
                     Counter App
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    A simple Game Counter App for two teams with the changeable display. 
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -59,12 +57,10 @@ function Projects() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Expense Calculator App
+                    My Tasks App
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    Displays the CRUD operation of my daily task with add, edit and delete functionality. 
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -90,9 +86,7 @@ function Projects() {
                     Rest API App
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    A REST API project using JSONPlaceholder to display data in an array. 
                   </Typography>
                 </CardContent>
               </CardActionArea>
