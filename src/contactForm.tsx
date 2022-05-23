@@ -37,6 +37,7 @@ const ContactForm = () => {
             <form action="https://formsubmit.co/ashiq.uxdev@gmail.com" method="POST">
             <TextField
                   label="Full Name"
+                  type="text"
                   margin="normal"
                   variant="outlined"                  
                   fullWidth
@@ -45,6 +46,7 @@ const ContactForm = () => {
                 
             <TextField
                   label="Email Address"
+                  type="email"
                   margin="normal"
                   variant="outlined"                  
                   fullWidth
@@ -54,6 +56,7 @@ const ContactForm = () => {
                 multiline
                 rows="4"
                 label="Message"
+                type="text"
                 margin="normal"
                 variant="outlined"               
                 fullWidth                
