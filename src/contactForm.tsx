@@ -38,6 +38,7 @@ const ContactForm = () => {
             <TextField
                   label="Full Name"
                   type="text"
+                  name="name"
                   margin="normal"
                   variant="outlined"                  
                   fullWidth
@@ -47,6 +48,7 @@ const ContactForm = () => {
             <TextField
                   label="Email Address"
                   type="email"
+                  name="email"
                   margin="normal"
                   variant="outlined"                  
                   fullWidth
@@ -57,6 +59,7 @@ const ContactForm = () => {
                 rows="4"
                 label="Message"
                 type="text"
+                name="message"
                 margin="normal"
                 variant="outlined"               
                 fullWidth                
