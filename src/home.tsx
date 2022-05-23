@@ -4,7 +4,7 @@ import Head from "next/head";
 import React from "react";
 import Menu from "../src/menu";
 import About from "./about";
-import Contact from "./contact";
+import ContactForm from "./contactForm";
 import Footer from "./footer";
 import Projects from "./projects";
 import Skills from "./skills";
@@ -38,7 +38,7 @@ function HomePage() {
         <About />
         <Skills />     
         <Projects />
-        <Contact />
+        <ContactForm />
         <Footer />    
     </ThemeProvider>
     </>
