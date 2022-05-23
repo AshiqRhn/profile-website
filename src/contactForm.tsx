@@ -56,14 +56,15 @@ const ContactForm = () => {
                 label="Message"
                 margin="normal"
                 variant="outlined"               
-                fullWidth
-                required
+                fullWidth                
               />
               <TextField
                 type="hidden"
                 name="_next"
-                value="https://www.ashiqrahman.link/about"
+                value="https://www.ashiqrahman.link/thankyou"
               />
+              <TextField type="hidden" name="_captcha" value="false" />
+
               <Button fullWidth
                 variant="contained"
                 type="submit"
