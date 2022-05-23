@@ -45,7 +45,7 @@ function Skills() {
         </Typography>
       </Container>
 
-      {/* <Container>
+      <Container>
         <Grid container spacing="20" marginTop={5} marginBottom={15}>
           <Grid item xs={12} md={6} lg={4}>
             <Paper
@@ -54,25 +54,100 @@ function Skills() {
               sx={{
                 padding: 3,
                 borderWidth: 3,
-                borderColor: "black",                
+                borderColor: "black",
               }}
             >
-              <Icon>
-                <CodeIcon />
-              </Icon>
-
-              <Typography variant="h5" marginBottom={2} marginTop={2} align="center">
-                Frontend
-              </Typography>
-              <Typography align="center">
-                <Stack direction="column">
-                  html, css, javaScript, Node.js, React,js, Next.js, TypeScript
-                </Stack>
-              </Typography>
+              <Stack
+                direction="column"
+                sx={{ alignItems: "center", padding: "10px" }}
+              >
+                <Icon>
+                  <CodeIcon />
+                </Icon>
+                <Typography
+                  variant="h5"
+                  marginBottom={2}
+                  marginTop={2}
+                  align="center"
+                >
+                  Frontend
+                </Typography>
+                <Typography>html</Typography>                
+                <Typography>CSS</Typography>                
+                <Typography>JavaScript</Typography>
+                <Typography>React.js</Typography>
+                <Typography>Next.js</Typography>
+                <Typography>TypeScript</Typography>
+              </Stack>
             </Paper>
           </Grid>
 
-          <Grid item xs={12} md={6} lg={4} align="center">
+          <Grid item xs={12} md={6} lg={4}>
+            <Paper
+              variant="elevation"
+              elevation={3}
+              sx={{
+                padding: 3,
+                borderWidth: 3,
+                borderColor: "black",
+              }}
+            >
+              <Stack
+                direction="column"
+                sx={{ alignItems: "center", padding: "10px" }}
+              >
+                <Icon>
+                <StorageIcon />
+              </Icon>
+
+              <Typography variant="h5" marginBottom={2} marginTop={2}>
+                Backend
+              </Typography>
+              
+                <Typography>REST API</Typography>
+                <Typography>Context API</Typography>
+                <Typography>MongoDB</Typography>
+                <Typography>Mongoose</Typography>
+                <Typography>Express</Typography>
+                <Typography>Redux</Typography>
+              </Stack>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={12} md={6} lg={4}>
+            <Paper
+              variant="elevation"
+              elevation={3}
+              sx={{
+                padding: 3,
+                borderWidth: 3,
+                borderColor: "black",
+              }}
+            >
+              <Stack
+                direction="column"
+                sx={{ alignItems: "center", padding: "10px" }}
+              >
+                <Icon>
+                <MiscellaneousServicesIcon />
+              </Icon>
+
+              <Typography variant="h5" marginBottom={2} marginTop={2}>
+                Miscellaneous
+              </Typography>
+              <Typography>WordPress</Typography>
+              <Typography>C-Panel Shared Hosting</Typography>
+                <Typography>Adobe Illustrator & Photoshop</Typography>
+                <Typography>2D Animation</Typography>
+                <Typography>Video Editing</Typography>
+                <Typography>Social Media Marketing</Typography>
+                
+               
+              </Stack>
+            </Paper>
+          </Grid>
+
+          {/* <Grid item xs={12} md={6} lg={4} align="center">
             <Paper
               variant="elevation"
               elevation={3}
@@ -119,9 +194,9 @@ function Skills() {
                 </Stack>
               </Typography>
             </Paper>
-          </Grid>
+          </Grid> */}
         </Grid>
-      </Container> */}
+      </Container>
     </>
   );
 }
