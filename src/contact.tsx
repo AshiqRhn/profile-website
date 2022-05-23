@@ -51,7 +51,7 @@ useState
             marginBottom={5}
             alignItems="center"
           >
-            <form noValidate autoComplete="off">
+            <form noValidate autoComplete="off" action="https://formsubmit.co/ashiq.uxdev@email.com" method="POST">
               <div>
                 <TextField
                   label="Full Name"
@@ -83,6 +83,7 @@ useState
                 fullWidth
               />
               <br />
+              <input type="hidden" name="_next" value="https://www.ashiqrahman.link/thankyou.tsx"></input>
               <Button
                 fullWidth
                 variant="contained"                
