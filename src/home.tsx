@@ -4,7 +4,7 @@ import Head from "next/head";
 import React from "react";
 import Menu from "../src/menu";
 import About from "./about";
-import ContactForm from "./contactForm";
+import ContactForm from "./contact";
 import Footer from "./footer";
 import Projects from "./projects";
 import Skills from "./skills";

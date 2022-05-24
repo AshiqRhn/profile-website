@@ -39,8 +39,11 @@ function Projects() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary" href="/proj1">
+                <Button size="small" color="primary" href="https://counterr-app.vercel.app/" target="_blank">
                   Try it
+                </Button>
+                <Button size="small" color="primary" href="https://github.com/AshiqRhn/counter-app" target="_blank">
+                  Code
                 </Button>
               </CardActions>
             </Card>
@@ -65,8 +68,11 @@ function Projects() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" href="https://my-tasks-app.vercel.app/" target="_blank">
                   Try it
+                </Button>
+                <Button size="small" color="primary" href="https://github.com/AshiqRhn/my-tasks-app" target="_blank">
+                  Code
                 </Button>
               </CardActions>
             </Card>
@@ -91,8 +97,11 @@ function Projects() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" href="https://rest-api-app.vercel.app/" target="_blank" >
                   Try it
+                </Button>
+                <Button size="small" color="primary" href="https://github.com/AshiqRhn/REST-API-App" target="_blank" >
+                  Code
                 </Button>
               </CardActions>
             </Card>

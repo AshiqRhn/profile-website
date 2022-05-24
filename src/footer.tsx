@@ -20,14 +20,19 @@ function Footer() {
             </Typography>
           </Box>
           <Box padding="10px">
-         
+            
+            
             <Icon sx={{marginRight:"20px"}}>
-              <GitHubIcon />
+              <a href="https://github.com/AshiqRhn?tab=repositories" target="_blank">
+               <GitHubIcon />
+              </a>
             </Icon>             
          
           
             <Icon>
-              <LinkedInIcon />
+              <a href="https://www.linkedin.com/in/ashiq001/" target="_blank">
+              <LinkedInIcon  />
+              </a>
             </Icon>            
           </Box>
           <Box padding="10px">
@@ -43,7 +48,7 @@ function Footer() {
           <Typography variant="body2" color="black" padding="5px" align="center"
           
           >
-             &copy; 2021 My Profile
+             &copy; <i>2022 Md Ashiqur Rahman</i>
           </Typography>
      
     </>
