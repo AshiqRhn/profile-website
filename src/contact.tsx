@@ -19,7 +19,7 @@ const Contact = () => {
         </Typography> 
 
         <Grid container marginBottom={10}>
-        <Grid item xs={12} md={6} lg={5} marginTop={5} marginBottom={5} marginRight={5}>
+        <Grid item xs={12} md={6} lg={5} marginTop={5} marginBottom={5} >
             <CardMedia
               className={classes.Media}
               component="img"

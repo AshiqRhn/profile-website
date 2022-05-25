@@ -37,10 +37,10 @@ function Footer() {
           </Box>
           <Box padding="10px">
             <Typography>              
-              E-mail: ashiq.uxdev@gmail.com
+              E-mail:  ashiq.uxdev@gmail.com
               </Typography>
             <Typography>
-              Phone: +1 519 588 7296
+              Phone:  +1 519 588 7296
             </Typography>
           </Box>
 

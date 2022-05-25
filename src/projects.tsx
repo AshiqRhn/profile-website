@@ -34,7 +34,7 @@ function Projects() {
                     Counter App
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    A simple Game Counter App for two teams with the changeable display. 
+                    A simple Game Counter App for two teams with changeable displays. 
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -63,7 +63,7 @@ function Projects() {
                     My Tasks App
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Displays the CRUD operation of my daily task with add, edit and delete functionality. 
+                    Displays CRUD operations of daily task with add, edit and delete functionality. 
                   </Typography>
                 </CardContent>
               </CardActionArea>

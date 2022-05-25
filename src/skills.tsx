@@ -28,8 +28,7 @@ function Skills() {
             marginTop={5}
             marginRight={10}
           >
-            May main focus is on Frontend, UX and UI development. But I also
-            know Backend development. Here is the complete details of my
+            Though I'm a Frontend developer, I know the backend too. Here are the complete details of my
             expertise.
           </Typography>
           <Typography
@@ -39,7 +38,7 @@ function Skills() {
             marginTop={2}
           >
             <Link href="/resume.png">
-              <b>Check out my online resume</b>
+              <b>Check out my online Resume</b>
             </Link>
           </Typography>
         </Typography>
@@ -72,12 +71,12 @@ function Skills() {
                 >
                   Frontend
                 </Typography>
-                <Typography>html</Typography>                
-                <Typography>CSS</Typography>                
+                <Typography>html & CSS</Typography>                             
                 <Typography>JavaScript</Typography>
                 <Typography>React.js</Typography>
                 <Typography>Next.js</Typography>
                 <Typography>TypeScript</Typography>
+                <Typography>Material UI</Typography>  
               </Stack>
             </Paper>
           </Grid>
@@ -138,9 +137,9 @@ function Skills() {
               <Typography>WordPress</Typography>
               <Typography>C-Panel Shared Hosting</Typography>
                 <Typography>Adobe Illustrator & Photoshop</Typography>
-                <Typography>2D Animation</Typography>
-                <Typography>Video Editing</Typography>
-                <Typography>Social Media Marketing</Typography>
+                <Typography>Toonly 2D Animation</Typography>
+                <Typography>Cyberlink Video Editing</Typography>
+                <Typography>Content Making</Typography>
                 
                
               </Stack>

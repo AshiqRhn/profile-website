@@ -12,7 +12,7 @@ import {
 function Menu() {
   return (
     <>
-      <Box sx={{ flexGrow: 1 }} id="box">
+      <Box sx={{ flexGrow: 1 }} id="about">
         <AppBar position="fixed" style={{ backgroundColor: "white", color: "black"}}>
           <Toolbar>
             <Avatar
@@ -30,12 +30,12 @@ function Menu() {
               Ashiq
             </Typography>
 
-            <Button color="inherit" size="small" component="a" href="#about">
+            <Button color="inherit" size="small" component="a" href="/#about">
               <Typography variant="body2">
                 About
               </Typography> 
             </Button>
-            <Button color="inherit" size="small" component="a" href="#skills">
+            <Button color="inherit" size="small" component="a" href="/#skills">
             <Typography variant="body2">
                 Skills
               </Typography>

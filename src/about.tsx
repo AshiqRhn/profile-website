@@ -1,12 +1,13 @@
 import { CardMedia, Container, Divider, Grid, Typography } from "@mui/material";
 import React from "react";
-import Skills from "./skills";
 
 function About() {
   return ( 
   
     <> 
-    <div  id="about" style={{border: '1px solid white'}}></div>   
+    <div style={{border: '1px solid white'}}>      
+      
+      </div>   
       <Container style={{marginTop: '20px'}} >
         <Grid container marginTop={15}>
           <Grid item xs={12} md={6} lg={5} marginLeft={10} marginRight={15}>
@@ -33,7 +34,7 @@ function About() {
             </Typography>
             <Typography align="center" variant="subtitle1">
               <b>I'm a freelance Frontend React.js Developer.</b> <br/>
-              I have more than three years of experience on web development and more than 7 years of experience on wordPress web development.
+              I have three years of experience on frontend web development and more than 7 years of experience on WordPress web development.
             </Typography>
           </Grid>
         </Grid>
