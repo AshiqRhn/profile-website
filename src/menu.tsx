@@ -10,22 +10,26 @@ import {
 } from "@mui/material";
 
 function Menu() {
+  const handleClick = () => {
+    window.scroll({top: 0, left: 0});
+  }
   return (
     <>
       <Box sx={{ flexGrow: 1 }} id="about">
         <AppBar position="fixed" style={{ backgroundColor: "white", color: "black"}}>
           <Toolbar>
+
             <Avatar
               src="/ashiq.png"
               style={{ marginRight: "7px" }}
-              component="a"
-              href="#box"
+              component="a"              
+              onClick={handleClick}
             />
             <Typography
               variant="body2"
               sx={{ flexGrow: 1, textTransform: "uppercase" }}
-              component="a"
-              href="#box"
+              component="a"             
+              onClick={handleClick}
             >
               Ashiq
             </Typography>
