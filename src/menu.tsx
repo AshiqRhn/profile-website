@@ -20,7 +20,7 @@ function Menu() {
           <Toolbar>
 
             <Avatar
-              src="/ashiq.png"
+              src="/myavatar.png"
               style={{ marginRight: "7px" }}
               component="a"              
               onClick={handleClick}

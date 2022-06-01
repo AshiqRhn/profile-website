@@ -14,11 +14,11 @@ function About() {
             <CardMedia
               style={{ 
                 height: "100%", 
-                width: "80%",                            
+                width: "100%",                            
                }}
               component="img"
               height="600"
-              image="/man3.png"
+              image="/Programmer-bro.png"
               alt="person"
             />
           </Grid>

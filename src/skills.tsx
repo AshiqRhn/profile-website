@@ -37,7 +37,7 @@ function Skills() {
             gutterBottom
             marginTop={2}
           >
-            <Link href="/resume.png">
+            <Link href="/resume.jpg">
               <b>Check out my online Resume</b>
             </Link>
           </Typography>
