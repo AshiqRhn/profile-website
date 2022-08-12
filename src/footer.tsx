@@ -16,7 +16,7 @@ function Footer() {
             Md Ashiqur Rahman
             </Typography>
             <Typography>
-            Kitchener, Ontario
+            Kitchener, Ontario, Canada
             </Typography>
           </Box>
           <Box padding="10px">
@@ -40,7 +40,7 @@ function Footer() {
               E-mail:  ashiq.uxdev@gmail.com
               </Typography>
             <Typography>
-              Phone:  +1 519 588 7296
+              Phone:  +1 (519) 588 7296
             </Typography>
           </Box>
 
