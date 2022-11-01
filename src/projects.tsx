@@ -26,20 +26,20 @@ function Projects() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="/counter.png"
+                  image="/firebasee.jpg"
                   alt="green iguana"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Counter App
+                    Firebase Authentication & Form
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    A simple Game Counter App for two teams with changeable displays. 
+                   Firebase Authentication & CRUD Operation in Cloud Firestore 
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary" href="https://counterr-app.vercel.app/" target="_blank">
+                <Button size="small" color="primary" href="https://firebase-form-6os2-forp52n7a-ashiqrhn.vercel.app/" target="_blank">
                   Try it
                 </Button>
                 <Button size="small" color="primary" href="https://github.com/AshiqRhn/counter-app" target="_blank">
