@@ -42,7 +42,7 @@ function Projects() {
                 <Button size="small" color="primary" href="https://firebase-form-6os2-forp52n7a-ashiqrhn.vercel.app/" target="_blank">
                   Try it
                 </Button>
-                <Button size="small" color="primary" href="https://github.com/AshiqRhn/counter-app" target="_blank">
+                <Button size="small" color="primary" href="https://github.com/AshiqRhn/firebase-form" target="_blank">
                   Code
                 </Button>
               </CardActions>
