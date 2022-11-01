@@ -31,7 +31,7 @@ function Projects() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Firebase Authentication & Form
+                    Firebase Auth & Form
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                    Firebase Authentication & CRUD Operation in Cloud Firestore 
